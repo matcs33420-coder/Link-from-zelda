@@ -1,0 +1,79 @@
+h1
+{
+	text-align:center;
+	background-color:MediumPurple;
+}
+p{
+	font-size:20;
+	background-color:plum;
+}
+.img_jeu{
+	width:400px;
+}
+.img_mask{
+	width:350px;
+}
+.img_mask1{
+	width:150px;
+}
+.img_maskzora{
+	width:200px;
+}
+.masque1{
+	position:relative;
+}
+.enfant{
+	width:200px;
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}
+body{
+	background-image: url("../background_img/background_mm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter:blur(3px);
+	background-width: 100px;
+	background-color:Plum;	
+
+}
+.bas{
+	color:plum;
+	position:relative;
+	top:45px;
+}
+.grille2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	place-items: end center;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}
+.kid{
+	width:150px;
+}
+.mask{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	place-items: end center;
+}
+.jeu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items: end center;
+}

@@ -1,0 +1,72 @@
+h1
+{
+	text-align:center;
+	background-color:Lavender;
+}
+p
+{
+	font-size:20;
+	position:static;
+	background-color : LightGoldenRodYellow ;
+}
+body{
+	background-image: url("../background_img/background_totk.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter: blur(3px);
+	background-color: LightGoldenRodYellow ;
+	
+}
+.jeu{
+	width:550px;
+}
+.perso{
+	width:200px;
+}
+.perso2{
+	width:300px;
+}
+.game{
+	width:500px;
+}
+.personnage{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	place-items:  center
+}
+.objet{
+	display:grid;
+	grid-template-columns:  1fr 1fr;
+	place-items:  center
+}
+.link{
+	display:grid;
+	grid-template-columns: 1fr;
+	place-items:  center
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.bas{
+	color:MediumPurple;
+	position:relative;
+	top:45px;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}

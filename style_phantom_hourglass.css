@@ -1,0 +1,72 @@
+h1{
+	text-align:center;
+	background-color:Teal;
+}
+p{
+	font-size:20;
+	background-color:PaleTurquoise;
+}
+body{
+	background-image: url("../background_img/background_ph.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter:blur(3px);
+	background-width: 100%;
+	background-color:PaleTurquoise;
+}
+.img_jeu{
+	width:500px;
+}
+.jeu{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	place-items:  center;
+}
+.gameplay{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+.link{
+	width:500px;
+	image-align:center;
+}
+.gameplay{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+.perso{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+.linebeck{
+	width:200px;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}
+.bas{
+	color:tan;
+	position:relative;
+	top:45px;
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}

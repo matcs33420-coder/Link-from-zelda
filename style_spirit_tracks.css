@@ -1,0 +1,66 @@
+h1
+{
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+p
+{
+	font-size:20;
+	position:static;
+	background-color : silver;
+}
+body{
+	background-image: url("../background_img/background_st.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter: blur(3px);
+	background-color: silver;
+	
+}
+.img{
+	width:600px;
+}
+.img_gameplay{
+	width:350px;
+}
+.img_perso{
+	width:350px;
+}
+.img_link{
+	width:450px;
+}
+.img_zelda{
+	width:250px;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}
+.bas{
+	color:tan;
+	position:relative;
+	top:45px;
+}
+.image{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}

@@ -1,0 +1,88 @@
+h1
+{
+	text-align:center;
+	background-color:green;
+}
+p
+{
+	font-size:20;
+	position:static;
+	background-color : lemonchiffon;
+}
+
+.texte_accueil
+{
+	position:relative;
+	left:750px;
+	font-size:15;
+
+}
+img
+{
+	width:300px;
+}
+.imglink
+{
+	width:100px;
+	position:relative;
+
+	
+}
+.imgjeu{
+	width:400px;
+	position:relative;
+	left:150px;
+	
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.speedrun{
+	font-size:20;
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+	
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:Gray
+}
+body{
+	background-image: url("../background_img/background_oot.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter: brightness(100%) blur(3px);
+	background-color: lemonchiffon;
+	
+}
+.bas{
+	color:green;
+	position:relative;
+	top:45px;
+}
+.grille2{
+	display:grid;
+	grid-template-columns:  1fr 1fr 1fr;
+	place-items: end center;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}
+.jeu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+
+
+
+	
+	

@@ -1,0 +1,65 @@
+h1
+{
+	text-align:center;
+	background-color:MediumPurple;
+	color:white;
+}
+p
+{
+	font-size:20;
+	position:static;
+	background-color : PaleTurquoise;
+}
+body{
+	background-image: url("../background_img/background_ss.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter: blur(3px);
+	background-color: PaleTurquoise;
+	
+}
+.img_jeu{
+	width:550px;
+}
+.g{
+	width:300px;
+}
+.p{
+	width:400px;
+}
+.img{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	place-items:  center;
+}
+.perso{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.bas{
+	color:MediumPurple;
+	position:relative;
+	top:45px;
+}
+.button1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}

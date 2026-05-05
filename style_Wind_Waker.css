@@ -1,0 +1,53 @@
+h1
+{
+	text-align:center;
+	background-color:RoyalBlue;
+}
+p{
+	font-size:20;
+	background-color:LightBlue;
+}
+.img_jeu{
+	width:500px;
+}
+body{
+	background-image: url("../background_img/background_ww.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	backdrop-filter:blur(3px);
+	background-color:LightBlue;
+}
+.btn_accueil{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_suivant{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.btn_jeu_précédent{
+	position:relative;
+	background-color:DodgerBlue;
+}
+.img_gameplay{
+	width:400px;
+}
+.bas{
+	color:RoyalBlue;
+	position:relative;
+	top:45px;
+}
+.button2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items:  center;
+	position:relative;
+	bottom:5px;
+}
+.grille{
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	place-items: center;
+}
+
